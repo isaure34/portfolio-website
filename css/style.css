@@ -1,0 +1,126 @@
+/*
+Colors used:
+Primary Color (Sea green): #2e8b57
+Font color (Gray7): #121212
+*/
+
+body {
+  background-color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #121212;
+}
+
+h1, h2, h3 {
+  line-height: 1.4;
+}
+h1{
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h2{
+  font-size: 1.75em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+img{
+  width: 100%;
+}
+
+#myheader{
+  padding: 40px;
+}
+
+#hero{
+  background-color: LavenderBlush;
+  color: #121212;
+  padding: 40px;
+  text-align: center;
+}
+
+#projects{
+  padding: 40px;
+}
+
+#aboutme{
+  padding: 40px;
+}
+
+a{
+  color: #2e8b57;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #246f45;
+  text-decoration: underline;
+}
+a:visited {
+  color: #8b2e62;
+}
+a:active{
+  color: #246f45;
+}
+
+.button {
+  display: inline-block;
+  background-color: #2e8b57;
+  color: #FFFFFF;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #1b5233;
+  transition: 0.2s opacity;
+}
+.button:visited{
+  color: #8b2e62;
+}
+.button:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+.button:active{
+  color:#17452b;
+}
+
+.button.contact {
+  background-color: transparent;
+  color: #2e8b57;
+  text-transform: uppercase;
+  border: 2px solid #2e8b57;
+}
+.button.contact:visited {
+    color: #8b2e62;
+}
+.button.contact:hover {
+  background-color: #2e8b57;
+  color: #ffffff;
+}
+.button.contact:active{
+  color: #ffffff;
+}
+
+.button.resume {
+  background-color: #2e8b57;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 2px solid #2e8b57;
+}
+.button.resume:visited {
+  color: #8b2e62;
+}
+.button.contact:hover {
+  background-color: #2e8b57;
+  color: #ffffff;
+}
+.button.contact:active{
+  color: #ffffff;
+}
