@@ -165,9 +165,9 @@ main {
   margin: auto;
 }
 
-
 .container h1{
   text-align: center;
+  padding: 16px 0;
 }
 
 .callout {
@@ -177,6 +177,13 @@ main {
   border: 2px solid #eebcbc;
   margin: 8px auto;
   width: 100%;
+}
+
+.quote {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  font-style: italic;
 }
 
 /* buttons */
