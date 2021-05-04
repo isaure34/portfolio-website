@@ -24,6 +24,7 @@ h1, h2, h3 {
 h1{
   font-size: 2.25em;
   font-weight: 700;
+  text-align: center;
 }
 
 h2{
@@ -108,6 +109,9 @@ main {
 
 .container {
   padding: 0 16px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #projects h2{
@@ -117,11 +121,6 @@ main {
 #projects img{
   margin: auto;
   width: 100%;
-}
-
-.skills {
-  padding: 0 15px;
-  text-align: left;
 }
 
 #projects .row {
@@ -136,6 +135,10 @@ main {
   display: inline-block;
   width: 100%;
   text-align: center;
+}
+
+#hero span {
+  display: block;
 }
 
 #hero h1{
@@ -153,16 +156,19 @@ main {
   margin-right: auto;
   width: 100%;
 }
-#aboutme h1{
+
+#aboutme h3{
+  margin-top: 0;
+}
+
+#aboutme h2{
   text-align: center;
 }
 
-.row p{
-  text-align: justify;
-}
-
-.row a{
-  margin: auto;
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .container h1{
@@ -184,6 +190,25 @@ main {
   font-size: 18px;
   text-align: center;
   font-style: italic;
+}
+
+#title h1{
+  margin-bottom: 0;
+}
+
+#title span {
+  display: block;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+[class*="col"]{
+  float: left;
+  padding: 10px;
+}
+
+.column {
+width: 100%;
 }
 
 /* buttons */
@@ -265,4 +290,63 @@ main {
 }
 .button.social:active{
   color:#17452b;
+}
+
+/* device styling */
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  main {
+    padding-top: 99.8px;
+  }
+
+  body{
+    font-size: 18px;
+  }
+
+  .col-md-3 {
+    width: 25%;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+}
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+  .col-lg-2 {
+    display: block;
+    width: 16.66%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-5 {
+  width: 41.66%;
+  }
+  .col-lg-7 {
+  width: 58.33%
+  }
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
 }
