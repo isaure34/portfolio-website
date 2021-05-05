@@ -46,20 +46,19 @@ video {
 }
 
 a{
-  color: #FFF;
+  color: #2975e2;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #121212;
+  color: #e29629;
 }
 a:visited {
-  color: #8b2e62;
+  color: #e29629;
 }
 a:active{
   color: #121212;
 }
-
 
 
 /* Layout styling */
@@ -90,7 +89,7 @@ nav > ul > li > a {
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  color: #121212;
+  color: #2975e2;
   display: inline-block;
   padding: 0 15px;
   position: relative;
@@ -98,13 +97,13 @@ nav > ul > li > a {
   cursor: pointer;
 }
 nav > ul > li > a:visited{
-  color: #8b2e62;
+  color: #e29629;
 }
 nav > ul > li > a:hover{
   opacity: 0.8;
 }
 nav > ul > li > a:active{
-  color:#17452b;
+  color: #e29629;
 }
 
 main {
@@ -331,7 +330,7 @@ li.topBotomBordersOut a:before, li.topBotomBordersOut a:after
     left: 0px;
     width: 100%;
     height: 2px;
-    background: #FFF;
+    background: #2975e2;
     content: "";
     opacity: 0;
     transition: all 0.3s;
@@ -358,41 +357,41 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
 /* buttons */
 .button {
   display: inline-block;
-  background-color: #2e8b57;
+  background-color: #2975e2;
   color: white;
   font-weight: 400;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #1b5233;
+  border-bottom: 2px solid #1752a8;
   transition-duration: 0.5s ;
   transition-property: opacity;
 }
 .button:visited{
-  color: #8b2e62;
+  color: #3929e2;
 }
 .button:hover {
   opacity: 0.8;
 }
 .button:active{
-  color:#17452b;
+  color:#3929e2;
 }
 
 .button.contact {
   background-color: transparent;
-  color: #2e8b57;
+  color: #2975e2;
   text-transform: uppercase;
-  border: 2px solid #2e8b57;
+  border: 2px solid #1752a8;
   display: inline-block;
   margin-bottom: 8px;
   transition-duration: 0.5s ;
   transition-property: opacity;
 }
 .button.contact:visited {
-    color: #8b2e62;
+    color: #3929e2;
 }
 .button.contact:hover {
-  background-color: #2e8b57;
+  background-color: #3929e2;
   color: #ffffff;
 }
 .button.contact:active{
@@ -400,7 +399,7 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
 }
 
 .button.resume {
-  background-color: #2e8b57;
+  background-color: #2975e2;
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
@@ -409,10 +408,10 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
   transition-property: opacity;
 }
 .button.resume:visited {
-  color: #8b2e62;
+  color: #3929e2;
 }
 .button.resume:hover {
-  background-color: #2e8b57;
+  background-color: #3929e2;
   color: #ffffff;
 }
 .button.resume:active{
