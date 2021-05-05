@@ -46,26 +46,25 @@ video {
 }
 
 a{
-  color: #2e8b57;
+  color: #FFF;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #246f45;
-  text-decoration: underline;
+  color: #121212;
 }
 a:visited {
   color: #8b2e62;
 }
 a:active{
-  color: #246f45;
+  color: #121212;
 }
 
 
 
 /* Layout styling */
 header {
-  background-color: #ffe4c4;
+  background-color: #fff;
   text-align: center;
   padding: 10px 0;
   position: fixed;
@@ -89,10 +88,14 @@ nav > ul > li {
 
 nav > ul > li > a {
   text-transform: uppercase;
-  padding: 0 15px;
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
-  color: #4a4a4a;
+  color: #121212;
   display: inline-block;
+  padding: 0 15px;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
 }
 nav > ul > li > a:visited{
   color: #8b2e62;
@@ -131,7 +134,7 @@ main {
 }
 
 #hero {
-  background-color: #ffe4c4;
+  background-color: white;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -165,8 +168,6 @@ main {
 #aboutme h2{
   text-align: center;
 }
-
-
 
 .container h1{
   text-align: center;
@@ -240,6 +241,10 @@ Medium devices (640px and larger)
     width: 25%;
   }
 
+  .col-md-4{
+    width: 33.3%;
+  }
+
   .col-md-6 {
     width: 50%;
   }
@@ -257,6 +262,10 @@ Large devices (1024px or larger)
   }
   .col-lg-3 {
     width: 25%;
+  }
+
+  .col-lg-4{
+    width: 33.33%;
   }
   .col-lg-5 {
   width: 41.66%;
@@ -316,7 +325,7 @@ X-large devices (1440px or larger)
 }
 
 /* navigation bar animation */
-nav.topBotomBordersOut a:before, nav.topBotomBordersOut a:after
+li.topBotomBordersOut a:before, li.topBotomBordersOut a:after
 {
     position: absolute;
     left: 0px;
@@ -328,19 +337,19 @@ nav.topBotomBordersOut a:before, nav.topBotomBordersOut a:after
     transition: all 0.3s;
 }
 
-nav.topBotomBordersOut a:before
+li.topBotomBordersOut a:before
 {
     top: 0px;
     transform: translateY(10px);
 }
 
-nav.topBotomBordersOut a:after
+li.topBotomBordersOut a:after
 {
     bottom: 0px;
     transform: translateY(-10px);
 }
 
-nav.topBotomBordersOut a:hover:before, nav.topBotomBordersOut a:hover:after
+li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
 {
     opacity: 1;
     transform: translateY(0px);
@@ -376,6 +385,8 @@ nav.topBotomBordersOut a:hover:before, nav.topBotomBordersOut a:hover:after
   border: 2px solid #2e8b57;
   display: inline-block;
   margin-bottom: 8px;
+  transition-duration: 0.5s ;
+  transition-property: opacity;
 }
 .button.contact:visited {
     color: #8b2e62;
@@ -394,7 +405,8 @@ nav.topBotomBordersOut a:hover:before, nav.topBotomBordersOut a:hover:after
   text-transform: uppercase;
   text-align: center;
   border: 2px solid #2e8b57;
-
+  transition-duration: 0.5s ;
+  transition-property: opacity;
 }
 .button.resume:visited {
   color: #8b2e62;
