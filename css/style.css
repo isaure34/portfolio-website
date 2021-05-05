@@ -3,7 +3,6 @@ Colors used:
 Primary Color (Sea green): #2e8b57
 Font color (Gray7): #121212
 */
-
 *{
   box-sizing: border-box;
 }
@@ -61,6 +60,8 @@ a:visited {
 a:active{
   color: #246f45;
 }
+
+
 
 /* Layout styling */
 header {
@@ -165,11 +166,7 @@ main {
   text-align: center;
 }
 
-.row::after{
-  content: "";
-  clear: both;
-  display: table;
-}
+
 
 .container h1{
   text-align: center;
@@ -202,95 +199,18 @@ main {
   margin-bottom: 8px;
 }
 
-[class*="col"]{
+[class*="col-"]{
   float: left;
   padding: 10px;
 }
 
-.column {
-width: 100%;
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
 }
 
-/* buttons */
-.button {
-  display: inline-block;
-  background-color: #2e8b57;
-  color: #FFFFFF;
-  font-weight: 400;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid #1b5233;
-  transition: 0.2s opacity;
-}
-.button:visited{
-  color: #8b2e62;
-}
-.button:hover {
-  opacity: 0.8;
-  text-decoration: none;
-}
-.button:active{
-  color:#17452b;
-}
 
-.button.contact {
-  background-color: transparent;
-  color: #2e8b57;
-  text-transform: uppercase;
-  border: 2px solid #2e8b57;
-  display: inline-block;
-  margin-bottom: 8px;
-}
-.button.contact:visited {
-    color: #8b2e62;
-}
-.button.contact:hover {
-  background-color: #2e8b57;
-  color: #ffffff;
-}
-.button.contact:active{
-  color: #ffffff;
-}
-
-.button.resume {
-  background-color: #2e8b57;
-  color: #ffffff;
-  text-transform: uppercase;
-  text-align: center;
-  border: 2px solid #2e8b57;
-
-}
-.button.resume:visited {
-  color: #8b2e62;
-}
-.button.resume:hover {
-  background-color: #2e8b57;
-  color: #ffffff;
-}
-.button.resume:active{
-  color: #ffffff;
-}
-
-.button.social{
-  display: inline-block;
-  background-color: #2e8b57;
-  color: #FFFFFF;
-  font-weight: 400;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid #1b5233;
-  transition: 0.2s opacity;
-}
-.button.social:visited{
-  color: #8b2e62;
-}
-.button.social:hover {
-  opacity: 0.8;
-  text-decoration: none;
-}
-.button.social:active{
-  color:#17452b;
-}
 
 /* device styling */
 /* ==============================
@@ -335,13 +255,17 @@ Large devices (1024px or larger)
     margin-left: auto;
     margin-right: auto;
   }
-
   .col-lg-3 {
     width: 25%;
   }
   .col-lg-5 {
   width: 41.66%;
   }
+
+  .col-lg-6{
+    width: 50%;
+  }
+
   .col-lg-7 {
   width: 58.33%
   }
@@ -349,4 +273,136 @@ Large devices (1024px or larger)
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
+}
+
+@media only screen and (max-width: 639px){
+.column{
+  width: 100%;
+  }
+}
+
+.berlin-illustration {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+@keyframes color-change {
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
+}
+
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}
+
+@keyframes cloud-move {
+  from {transform: translate(0, 50px);}
+  to {transform: translate(200px, 50px);}
+}
+
+.cloud-front {
+  animation: 30s cloud-move infinite alternate linear;
+}
+
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px, 48px);}
+  to {transform: translate(100px, 48px);}
+}
+
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+/* navigation bar animation */
+nav.topBotomBordersOut a:before, nav.topBotomBordersOut a:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+nav.topBotomBordersOut a:before
+{
+    top: 0px;
+    transform: translateY(10px);
+}
+
+nav.topBotomBordersOut a:after
+{
+    bottom: 0px;
+    transform: translateY(-10px);
+}
+
+nav.topBotomBordersOut a:hover:before, nav.topBotomBordersOut a:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+/* buttons */
+.button {
+  display: inline-block;
+  background-color: #2e8b57;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #1b5233;
+  transition-duration: 0.5s ;
+  transition-property: opacity;
+}
+.button:visited{
+  color: #8b2e62;
+}
+.button:hover {
+  opacity: 0.8;
+}
+.button:active{
+  color:#17452b;
+}
+
+.button.contact {
+  background-color: transparent;
+  color: #2e8b57;
+  text-transform: uppercase;
+  border: 2px solid #2e8b57;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+.button.contact:visited {
+    color: #8b2e62;
+}
+.button.contact:hover {
+  background-color: #2e8b57;
+  color: #ffffff;
+}
+.button.contact:active{
+  color: #ffffff;
+}
+
+.button.resume {
+  background-color: #2e8b57;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid #2e8b57;
+
+}
+.button.resume:visited {
+  color: #8b2e62;
+}
+.button.resume:hover {
+  background-color: #2e8b57;
+  color: #ffffff;
+}
+.button.resume:active{
+  color: #ffffff;
 }
