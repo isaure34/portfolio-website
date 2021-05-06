@@ -215,6 +215,7 @@ main {
 .copyright{
   text-align: center;
   padding: 15px;
+  font-size: .95em;
 }
 
 .methods .column {
@@ -305,7 +306,7 @@ Medium devices (640px and larger)
     align-content: center;
   }
 
-  
+
 }
 /* ==============================
 Large devices (1024px or larger)
