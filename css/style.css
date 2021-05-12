@@ -120,7 +120,7 @@ nav > ul > li > a:active{
 .navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255, 127, 80, 0.5);
+  border-top: 1px solid #eebcbc;
 }
 
 .navtoggle.responsive nav {
@@ -154,7 +154,7 @@ main {
 
 #projects .row {
   padding-bottom: 25px;
-  border-bottom: 1px solid #4a4a4a;
+  border-bottom: 1px solid #eebcbc;
   margin: 25px 0;
 }
 
@@ -272,12 +272,10 @@ main {
   padding: 12px 16px;
 }
 
-#contact {
-  margin-top: 64px;
-}
-
 #contact h2 {
   text-align: center;
+  margin-top: 80px;
+  padding-bottom: 0;
 }
 
 #aboutme .column{
@@ -293,6 +291,17 @@ main {
   justify-content: flex-end;
 }
 
+.socials {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.fab.fa-linkedin, .fab.fa-behance-square {
+  font-size: 2em;
+  margin: 16px;
+  margin-left: 0;
+}
 
 
 /* device styling */
@@ -360,6 +369,10 @@ Medium devices (640px and larger)
     justify-content: center;
     align-items: center;
   }
+
+
+
+
 
   .align > ul {
     display: flex;
@@ -493,7 +506,6 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
   font-weight: 400;
   text-decoration: none;
   padding: 8px;
-  border-radius: 3px;
   border-bottom: 2px solid #1752a8;
   transition-duration: 0.5s ;
   transition-property: opacity;
