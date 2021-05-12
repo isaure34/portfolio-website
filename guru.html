@@ -15,6 +15,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -22,18 +23,22 @@
 <body>
   <!-- for the header -->
   <header id="header">
-    <div class="container">
-        <a href="index.html"><img src="img/me/logo.svg" class="logo" alt="Isaure's Logo"></a>
-      <nav class="navigation"> <ul>
-        <li class="nav-container topBotomBordersOut"><a href="index.html">Work</a></li>
-        <li class="nav-container topBotomBordersOut"> <a href="about.html#skills" target="_blank">About</a></li>
-        <li class="nav-container topBotomBordersOut"><a href="#contact">Contact</a></li>
+    <div class="container align">
+      <div class="navtoggle" id="myNavtoggle">
+      <a href="index.html"><img src="img/me/logo.svg" class="logo" alt="Isaure's Logo"></a>
+      <nav class="navigation">
+        <ul>
+          <li class="nav-container topBotomBordersOut"><a href="index.html">Work</a></li>
+          <li class="nav-container topBotomBordersOut"> <a href="about.html#skills" target="_blank">About</a></li>
+          <li class="nav-container topBotomBordersOut"><a href="#contact" onclick="menuToggle()">Contact</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
         </ul>
       </nav>
     </div>
+    </div>
   </header>
 
-  <main>
+  <main id="main">
     <!-- Guru title -->
     <div id="title">
       <!-- Title Container -->
@@ -424,6 +429,7 @@
         <p>If time allows, I'd like to create a helpful resources page that is accessible via the Guru logo. I also want to build the chat page so that people have easy access to their messages.</p>
         <h3>Here's the <a href="https://www.figma.com/proto/tODDLYnCcUl1zzB98ctZ2g/Guru?node-id=315%3A32&scaling=scale-down" download target="_blank">link</a> if you'd like to try it out yourself.</h3>
         <p>Thanks for reading.</p>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
       </div>
     </div>
 
@@ -447,7 +453,7 @@
       <p class="copyright">Copyright ISAURE AJARRISTA 2021</p>
     </div>
   </footer>
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
 </body>
 
