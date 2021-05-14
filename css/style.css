@@ -156,6 +156,7 @@ main {
   padding-bottom: 25px;
   border-bottom: 1px solid #eebcbc;
   margin: 25px 0;
+  align-items: center;
 }
 
 #hero {
@@ -184,6 +185,7 @@ main {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 105px;
   width: 50%;
   border-radius: 50%;
 }
@@ -202,9 +204,9 @@ main {
 }
 
 .callout {
-  background-color: #f2f2f2;
+  background-color: #e9f1fc;
   padding: 16px 8px;
-  border: 2px solid #eebcbc;
+  border: 2px solid #2975e2;
   margin: 56px auto;
   width: 100%;
   display: flex;
@@ -250,6 +252,10 @@ main {
   padding: 16px 72px;
 }
 
+.methods .row {
+  flex-flow: row wrap;
+}
+
 .methods h3{
   text-align: center;
 }
@@ -283,6 +289,14 @@ main {
 }
 #aboutme ul{
   list-style-type: none;
+}
+
+.about {
+  margin-top: 16px;
+}
+
+.skills h2{
+  text-align: center;
 }
 
 .container .scroll {
@@ -369,22 +383,25 @@ Medium devices (640px and larger)
     justify-content: center;
     align-items: center;
   }
-
-
-
-
-
+  
   .align > ul {
     display: flex;
     justify-content: flex-end;
     align-content: center;
+  }
+
+  #image {
+    justify-content: center space-around;
+    margin: auto;
+    max-width: 600px;
   }
 }
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 992px) {
+
   .col-lg-2 {
     display: block;
     width: 16.66%;
@@ -427,6 +444,10 @@ X-large devices (1440px or larger)
 .column{
   width: 100%;
   float: left;
+  }
+
+  .col-sm-3{
+    width: 33.33%;
   }
 }
 
@@ -474,7 +495,7 @@ li.topBotomBordersOut a:before, li.topBotomBordersOut a:after
     left: 0px;
     width: 100%;
     height: 2px;
-    background: #2975e2;
+    background: #3929e2;
     content: "";
     opacity: 0;
     transition: all 0.3s;
@@ -506,7 +527,7 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
   font-weight: 400;
   text-decoration: none;
   padding: 8px;
-  border-bottom: 2px solid #1752a8;
+  border-bottom: 2px solid #3929e2;
   transition-duration: 0.5s ;
   transition-property: opacity;
   margin-left: 16px;
@@ -516,10 +537,11 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
   color: #fff;
 }
 .button:hover {
-  opacity: 0.8;
+  color: #fff;
+  background-color: #3929e2;
 }
 .button:active{
-  color:#3929e2;
+  color:#fff;
 }
 
 
@@ -537,7 +559,7 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
     color: #3929e2;
 }
 .button.contact:hover {
-  background-color: #3929e2;
+  background-color: #2975e2;
   color: #ffffff;
 }
 .button.contact:active{
@@ -556,7 +578,7 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
   margin-bottom: 32px;
 }
 .button.resume:visited {
-  color: #3929e2;
+  color: #fff;
 }
 .button.resume:hover {
   background-color: #3929e2;
