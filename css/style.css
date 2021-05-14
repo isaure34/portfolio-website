@@ -57,9 +57,6 @@ a:hover,
 a:focus {
   color: #3929e2;
 }
-a:visited {
-  color: 	#3929e2;
-}
 a:active{
   color: #121212;
 }
@@ -89,9 +86,6 @@ nav > ul > li > a {
   position: relative;
   z-index: 0;
   cursor: pointer;
-}
-nav > ul > li > a:visited{
-  color: 	#3929e2;
 }
 nav > ul > li > a:hover{
   opacity: 0.8;
@@ -533,9 +527,6 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
   margin-left: 16px;
   border-radius: 8px;
 }
-.button:visited{
-  color: #fff;
-}
 .button:hover {
   color: #fff;
   background-color: #3929e2;
@@ -555,9 +546,6 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
   transition-duration: 0.5s ;
   transition-property: opacity;
 }
-.button.contact:visited {
-    color: #3929e2;
-}
 .button.contact:hover {
   background-color: #2975e2;
   color: #ffffff;
@@ -576,9 +564,6 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
   transition-property: opacity;
   width: auto;
   margin-bottom: 32px;
-}
-.button.resume:visited {
-  color: #fff;
 }
 .button.resume:hover {
   background-color: #3929e2;
