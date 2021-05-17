@@ -50,15 +50,15 @@ video {
 }
 
 a{
-  color: #2975e2;
+  color: #061832;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #3929e2;
+  color: #061832;
 }
 a:active{
-  color: #121212;
+  color: #061832;
 }
 
 
@@ -80,7 +80,7 @@ nav > ul > li > a {
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  color: #2975e2;
+  color: #061832;
   display: inline-block;
   padding: 0 16px;
   position: relative;
@@ -200,7 +200,7 @@ main {
 .callout {
   background-color: #e9f1fc;
   padding: 16px 8px;
-  border: 2px solid #2975e2;
+  border: 2px solid #061832;
   margin: 56px auto;
   width: 100%;
   display: flex;
@@ -489,7 +489,7 @@ li.topBotomBordersOut a:before, li.topBotomBordersOut a:after
     left: 0px;
     width: 100%;
     height: 2px;
-    background: #3929e2;
+    background: #061832;
     content: "";
     opacity: 0;
     transition: all 0.3s;
@@ -516,7 +516,7 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
 /* buttons */
 .button {
   display: inline-block;
-  background-color: #2975e2;
+  background-color: #061832;
   color: white;
   font-weight: 400;
   text-decoration: none;
@@ -538,7 +538,7 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
 
 .button.contact {
   background-color: transparent;
-  color: #2975e2;
+  color: #061832;
   text-transform: uppercase;
   border: 2px solid #1752a8;
   display: inline-block;
@@ -547,7 +547,7 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
   transition-property: opacity;
 }
 .button.contact:hover {
-  background-color: #2975e2;
+  background-color: #061832;
   color: #ffffff;
 }
 .button.contact:active{
@@ -555,18 +555,18 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
 }
 
 .button.resume {
-  background-color: #2975e2;
+  background-color: #061832;
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
-  border: 2px solid #3929e2;
+  border: 2px solid #0e3976;
   transition-duration: 0.5s ;
   transition-property: opacity;
   width: auto;
   margin-bottom: 32px;
 }
 .button.resume:hover {
-  background-color: #3929e2;
+  background-color: #0e3976;
   color: #ffffff;
 }
 .button.resume:active{
@@ -583,12 +583,12 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
   text-transform: uppercase;
   border: none;
   outline: none;
-  background-color: #2975e2 ;
+  background-color: #061832 ;
   color: white;
   cursor: pointer;
   padding: 16px;
   border-radius: 100%;
 }
 #myBtn:hover {
-  background-color: #3929e2;
+  background-color: #0e3976;
 }
