@@ -91,7 +91,7 @@ nav > ul > li > a:hover{
   opacity: 0.8;
 }
 nav > ul > li > a:active{
-  color: 	#3929e2;
+  color: 	#061832;
 }
 
 .navtoggle li:not(:last-child){
@@ -521,7 +521,7 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
   font-weight: 400;
   text-decoration: none;
   padding: 8px;
-  border-bottom: 2px solid #3929e2;
+  border-bottom: 2px solid #0e3976;
   transition-duration: 0.5s ;
   transition-property: opacity;
   margin-left: 16px;
