@@ -114,7 +114,7 @@ nav > ul > li > a:active{
 .navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid #eebcbc;
+  border-top: 1px solid #061832;
 }
 
 .navtoggle.responsive nav {
@@ -148,7 +148,7 @@ main {
 
 #projects .row {
   padding-bottom: 25px;
-  border-bottom: 1px solid #eebcbc;
+  border-bottom: 1px solid #061832;
   margin: 25px 0;
   align-items: center;
 }
