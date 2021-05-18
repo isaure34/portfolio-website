@@ -50,15 +50,15 @@ video {
 }
 
 a{
-  color: #061832;
+  color: #1d254e;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #061832;
+  color: #1d254e;
 }
 a:active{
-  color: #061832;
+  color: #1d254e;
 }
 
 
@@ -80,7 +80,7 @@ nav > ul > li > a {
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  color: #061832;
+  color: #1d254e;
   display: inline-block;
   padding: 0 16px;
   position: relative;
@@ -91,7 +91,7 @@ nav > ul > li > a:hover{
   opacity: 0.8;
 }
 nav > ul > li > a:active{
-  color: 	#061832;
+  color: 	#1d254e;
 }
 
 .navtoggle li:not(:last-child){
@@ -114,7 +114,7 @@ nav > ul > li > a:active{
 .navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid #061832;
+  border-top: 1px solid #1d254e;
 }
 
 .navtoggle.responsive nav {
@@ -148,7 +148,7 @@ main {
 
 #projects .row {
   padding-bottom: 25px;
-  border-bottom: 1px solid #061832;
+  border-bottom: 1px solid #1d254e;
   margin: 25px 0;
   align-items: center;
 }
@@ -200,7 +200,7 @@ main {
 .callout {
   background-color: #e9f1fc;
   padding: 16px 8px;
-  border: 2px solid #061832;
+  border: 2px solid #1d254e;
   margin: 56px auto;
   width: 100%;
   display: flex;
@@ -489,7 +489,7 @@ li.topBotomBordersOut a:before, li.topBotomBordersOut a:after
     left: 0px;
     width: 100%;
     height: 2px;
-    background: #061832;
+    background: #1d254e;
     content: "";
     opacity: 0;
     transition: all 0.3s;
@@ -516,7 +516,7 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
 /* buttons */
 .button {
   display: inline-block;
-  background-color: #061832;
+  background-color: #1d254e;
   color: white;
   font-weight: 400;
   text-decoration: none;
@@ -529,7 +529,7 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
 }
 .button:hover {
   color: #fff;
-  background-color: #3929e2;
+  background-color: #1d254e;
 }
 .button:active{
   color:#fff;
@@ -538,7 +538,7 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
 
 .button.contact {
   background-color: transparent;
-  color: #061832;
+  color: #1d254e;
   text-transform: uppercase;
   border: 2px solid #1752a8;
   display: inline-block;
@@ -547,7 +547,7 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
   transition-property: opacity;
 }
 .button.contact:hover {
-  background-color: #061832;
+  background-color: #1d254e;
   color: #ffffff;
 }
 .button.contact:active{
@@ -555,7 +555,7 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
 }
 
 .button.resume {
-  background-color: #061832;
+  background-color: #1d254e;
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
@@ -583,12 +583,12 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
   text-transform: uppercase;
   border: none;
   outline: none;
-  background-color: #061832 ;
+  background-color: #1d254e ;
   color: white;
   cursor: pointer;
   padding: 16px;
   border-radius: 100%;
 }
 #myBtn:hover {
-  background-color: #0e3976;
+  background-color: #1d254e;
 }
