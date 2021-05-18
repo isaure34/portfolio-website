@@ -94,6 +94,16 @@ nav > ul > li > a:active{
   color: 	#1d254e;
 }
 
+#projects a {
+  text-decoration: underline;
+}
+
+.fas.fa-angle-right{
+  font-size: 20px;
+  position: relative;
+  top: 2px;
+}
+
 .navtoggle li:not(:last-child){
   display: none;
 }
