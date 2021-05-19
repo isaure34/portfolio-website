@@ -18,6 +18,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KWXFG2XT7S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KWXFG2XT7S');
+</script>
 </head>
 
 <body>
@@ -44,13 +53,12 @@
         <!-- Title Container -->
       <div class="container">
     <!-- photo and rest of main -->
-      <!-- <div class="row"> -->
-        <!--container -->
-        <!-- <div class="column col-md-6 col-lg-6"> -->
+      <div class="personal-image">
         <picture>
           <source srcset="img/me/mev3.jpg" media="(max-width:767px)">
           <img src="img/me/mev3-1200.jpg" alt="a portrait of me">
         </picture>
+      </div>
 
         <div class="about">
             <h2>Background</h2>
@@ -61,7 +69,6 @@
          </div>
         </div>
       </div>
-    </div>
 
 <!--row for columns -->
   <div class="container">
@@ -74,7 +81,9 @@
             <!-- Relevant skills column -->
               <div class="column col-md-6 col-lg-6">
                 <!--list of skills -->
+                <div class="h3">
                 <h3> Relevant Skills </h3>
+              </div>
                 <ul>
                   <li> User research</li>
                   <li> Persona development</li>
@@ -84,7 +93,9 @@
               </div>
               <!-- tools i use column -->
               <div class="column col-md-6 col-lg-6">
+                <div class="h3">
                 <h3> Tools I Use </h3>
+              </div>
                 <ul>
                   <li>Figma</li>
                   <li>Bootstrap</li>
