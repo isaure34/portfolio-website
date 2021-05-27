@@ -15,7 +15,7 @@ body {
   color: #121212;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   line-height: 1.4;
 }
 
@@ -185,9 +185,10 @@ main {
 .personal-image img{
   border-radius: 50%;
   display: block;
+  align-items: center;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 105px;
   width: 50%;
 }
 
@@ -197,10 +198,15 @@ main {
 
 .about {
   margin-top: 16px;
+  padding-right: 50px;
 }
 
 .skills {
   text-align: center;
+}
+
+#aboutme {
+  margin-top: 40px;
 }
 
 #aboutme .column{
@@ -314,9 +320,7 @@ main {
 }
 
 .socials {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
+  text-align: center;
 }
 
 .fab.fa-linkedin, .fab.fa-medium {
@@ -329,6 +333,39 @@ main {
   text-align: center;
   margin-top: 18px;
 }
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit]{
+  background-color: #1d254e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover{
+  background-color: #606683;
+}
+
+.contact-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  max-width: 1200px;
+  margin-top: 115px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 
 /* device styling */
 /* ==============================
@@ -573,8 +610,8 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
 }
 
 .button.resume {
-  background-color: #1d254e;
-  color: #ffffff;
+  background-color: white;
+  color: #1d254e;
   text-transform: uppercase;
   text-align: center;
   border: 2px solid #0e3976;
