@@ -254,7 +254,9 @@ main {
   font-style: italic;
   font-weight: 700;
   text-align: center;
+  padding-bottom: 16px;
 }
+
 
 .h1-title{
   margin-bottom: 0;
@@ -271,6 +273,7 @@ main {
   padding: 10px;
 }
 
+
 .row::after{
   clear: both;
   content: "";
@@ -279,7 +282,8 @@ main {
 
 .copyright{
   font-size: .95em;
-  padding-top: 72px;
+  padding-top: 36px;
+  padding-bottom: 36px;
   text-align: center;
 }
 
