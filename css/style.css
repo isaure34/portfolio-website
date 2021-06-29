@@ -103,6 +103,7 @@ nav > ul > li > a:active{
   top: 2px;
 }
 
+
 .navtoggle li:not(:last-child){
   display: none;
 }
@@ -409,9 +410,11 @@ Medium devices (640px and larger)
   }
 
   .logo{
-    max-width: 200px;
-    max-height: 115px;
+    max-width: 150px;
+    position: relative;
   }
+
+
 
 
   .col-md-3 {
